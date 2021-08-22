@@ -1,0 +1,25 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        // "useBuiltIns": "entry", // 使用的才处理转化
+        "targets": {
+          "esmodules": true
+        }
+      }
+    ]
+  ],
+  // "plugins": [
+  //   [
+  //     "@babel/plugin-transform-runtime",
+  //     {
+  //       "absoluteRuntime": false,
+  //       "corejs": false, // corejs: 2, @babel/runtime-corejs2
+  //       "helpers": true,
+  //       "regenerator": true,
+  //       "version": "7.0.0-beta.0"
+  //     }
+  //   ]
+  // ]
+}
